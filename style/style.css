@@ -1,0 +1,37 @@
+
+/* First Page */
+
+.home-page{
+    font-family: 'Marcellus', serif;
+    margin-top: 45px;
+    margin-bottom: 50px;
+    width: 50%;
+    text-align: center;
+}
+
+.home-page img{
+    border: 2px solid black;
+}
+
+
+.text{
+    width: 50%;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.text h1{
+    text-decoration: underline;
+}
+
+.list-buttons{
+    justify-content: center;
+    text-align: center;
+}
+
+.list-buttons p{
+    margin-top: 15px;
+}
+
+
+
