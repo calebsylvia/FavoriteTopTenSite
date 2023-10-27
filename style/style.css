@@ -37,26 +37,28 @@
 /* Mike's Styles */
 
 .mikeHead{
-    text-align: center;
+    font-family: 'Marcellus', serif;
     text-decoration: underline;
+    margin-top: 75px;
+    text-align: center;
 }
 .mikeBox{
-    background-color: grey;
+    background-color: #D9D9D9;
+    font-family: 'Marcellus', serif;
+    margin-top: 35px;
+    width: 75%;
+    margin-bottom: 40px;
 }
 .accordion-body {
     background-color: white;
     text-align: center;
-    
-
 }
-
 
 .accordion-button {
     position: relative;
     display: flex;
     color: black;
     background-color: white;
-
     &:not(.collapsed){
         color: black;
         background-color:white;

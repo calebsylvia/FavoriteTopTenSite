@@ -1,148 +1,504 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap"
-      rel="stylesheet"
-    />
-    <link href="/style/style.css" rel="stylesheet" />
-  </head>
-  <body>
-    <nav class="navbar sticky-top" style="background-color: #f0c077">
-      <div class="container-fluid">
-        <a class="navbar-brand mx-auto" href="/index.html">
-          <img src="/assets/Favorites (1) (1).png" alt="Logo" />
-        </a>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet" />
+  <link href="/style/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <nav class="navbar sticky-top" style="background-color: #f0c077">
+    <div class="container-fluid">
+      <a class="navbar-brand mx-auto" href="/index.html">
+        <img src="/assets/Favorites (1) (1).png" alt="Logo" />
+      </a>
+    </div>
+  </nav>
+  <div class="container-fluid mikeHead">
+    <h1>Mike's Top Ten Fries</h1>
+  </div>
+
+  <div class="container-fluid mikeBox">
+    <!-- num ten -->
+    <div class="container-fluid fry-ten space-me">
+      <div class="row">
+        <h2>10. McDonald's</h2>
       </div>
-    </nav>
-    <br>
-    <br>
-    <h1 class="mikeHead">Mike's Top Ten Fries</h1>
-    <br />
-    <br />
-    <div class="mikeBox">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-4">
+            <img src="../assets/MMcdonaldspic.jpg" alt="Mcdpic" width="290" height="375" />
+          </div>
+
+          <div class="col-4">
+            <h2>Taste: X/10</h2>
+            <h2>Saltiness: X/10</h2>
+            <h2>Texture: X/10</h2>
+            <h2>Overall: X/10</h2>
+            <br>
+            <p>Mini description of the fries and the experience</p>
+          </div>
+
+          <div class="col-4">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapseOne">
+                    <Strong>Review</Strong>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                  <div class="accordion-body">
+                    <iframe width="240" height="290" src="https://www.youtube.com/embed/o6nOlKlnkyA?si=K5gkYC9-NchKTc2K"
+                      title="YouTube video player" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen></iframe>
 
 
-        <h1>10. Burger King</h1>
-        <div class="container">
-
-            <div class="row">
-                <div class="col-4">
-                    <img src="../assets/MBKpic.jpg" alt="BKpic" width="335px" />
+                  </div>
                 </div>
-                <div class="col-4">
-                    <h2>Taste: X/10</h2>
-                    <br>
-                    <h2>Saltiness: X/10</h2>
-                    <br>
-                    <h2>Texture: X/10</h2>
-                    <br>
-                    <h2>Overall: X/10</h2>
-                    <br>
-                    <h4>Mini description of the fries and the experience</h4>
-
-
-
-
-
-
-
-                </div>
-                <div class="col-4">
-                    <div class="accordion" id="accordionPanelsStayOpenExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-                                    aria-controls="panelsStayOpen-collapseOne">
-                                    <Strong>Review</Strong>
-                                </button>
-                            </h2>
-                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
-                                <div class="accordion-body">
-                                  <iframe width="320" height="355" src="https://www.youtube.com/embed/CgmG2JE6H2o?si=D4Nxi7sXOWSiCtef" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+              </div>
             </div>
+
+          </div>
         </div>
-        <br>
-        <br>
-        <h1>10. Burger King</h1>
+      </div>
+    </div>
+    <!-- num nine -->
+    <div class="container-fluid  space-me">
+      <div class="row">
+        <h2>9. Wendy's</h2>
+      </div>
+      <div class="container">
 
-        <div class="container">
-            <div class="row">
-                <div class="col-4">
-                    <img src="./assets/BK.jpg" alt="BKpic" width="335px" />
-                </div>
-                <div class="col-4">
-                    <h2>Taste: X/10</h2>
-                    <br>
-                    <h2>Saltiness: X/10</h2>
-                    <br>
-                    <h2>Texture: X/10</h2>
-                    <br>
-                    <h2>Overall: X/10</h2>
-                    <br>
-                    <h4>Mini description of the fries and the experience</h4>
-                </div>
-                <div class="col-4">
-                    <div class="accordion" id="accordionPanelsStayOpenExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true"
-                                    aria-controls="panelsStayOpen-collapseTwo">
-                                    <strong>Review</strong>
-                                </button>
-                            </h2>
-                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show">
-                                <div class="accordion-body">
-                                    <video src="./assets/BKRev.mp4" controls width="200px"></video>
+        <div class="row">
+          <div class="col-4">
+            <img src="../assets/MWendyspic.jpg" alt="wendypic" width="290" height="375" />
+          </div>
 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+          <div class="col-4">
+            <h2>Taste: X/10</h2>
+            <h2>Saltiness: X/10</h2>
+            <h2>Texture: X/10</h2>
+            <h2>Overall: X/10</h2>
+            <br>
+            <p>Mini description of the fries and the experience</p>
+          </div>
 
+          <div class="col-4">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapseTwo">
+                    <Strong>Review</Strong>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show">
+                  <div class="accordion-body">
+                    <iframe width="240" height="290" src="https://www.youtube.com/embed/9Tpa_iTIsNg?si=pSpmZMPzfFMxLuwD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+                  </div>
                 </div>
+              </div>
             </div>
+
+          </div>
         </div>
-        <br>
-        <br>
+      </div>
     </div>
 
+    <!-- num eight -->
+    <div class="container-fluid  space-me">
+      <div class="row">
+        <h2>8. Cane's</h2>
+      </div>
+      <div class="container">
+
+        <div class="row">
+          <div class="col-4">
+            <img src="../assets/Mcanespic.jpg" alt="BKpic" width="290" height="375" />
+          </div>
+
+          <div class="col-4">
+            <h2>Taste: X/10</h2>
+            <h2>Saltiness: X/10</h2>
+            <h2>Texture: X/10</h2>
+            <h2>Overall: X/10</h2>
+            <br>
+            <p>Mini description of the fries and the experience</p>
+          </div>
+
+          <div class="col-4">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapseThree">
+                    <Strong>Review</Strong>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show">
+                  <div class="accordion-body">
+                    <iframe width="240" height="290" src="https://www.youtube.com/embed/MhiXxjz9p1k?si=EWxsvh5euooBzLPH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- num seven -->
+    <div class="container-fluid  space-me">
+      <div class="row">
+        <h2>7. Sonic</h2>
+      </div>
+      <div class="container">
+
+        <div class="row">
+          <div class="col-4">
+            <img src="../assets/MSonicpic.jpg" alt="BKpic" width="290" height="375" />
+          </div>
+
+          <div class="col-4">
+            <h2>Taste: X/10</h2>
+            <h2>Saltiness: X/10</h2>
+            <h2>Texture: X/10</h2>
+            <h2>Overall: X/10</h2>
+            <br>
+            <p>Mini description of the fries and the experience</p>
+          </div>
+
+          <div class="col-4">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapseFour">
+                    <Strong>Review</Strong>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show">
+                  <div class="accordion-body">
+                    <iframe width="240" height="290" src="https://www.youtube.com/embed/RbYxNuBZx-I?si=fwjUlNKwZW5GKazl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- num six -->
+    <div class="container-fluid  space-me">
+      <div class="row">
+        <h2>6. Jack in the Box</h2>
+      </div>
+      <div class="container">
+
+        <div class="row">
+          <div class="col-4">
+            <img src="../assets/MJackNBoxpic.jpg" alt="BKpic" width="290" height="375" />
+          </div>
+
+          <div class="col-4">
+            <h2>Taste: X/10</h2>
+            <h2>Saltiness: X/10</h2>
+            <h2>Texture: X/10</h2>
+            <h2>Overall: X/10</h2>
+            <br>
+            <p>Mini description of the fries and the experience</p>
+          </div>
+
+          <div class="col-4">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapseFive">
+                    <Strong>Review</Strong>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse show">
+                  <div class="accordion-body">
+                    <iframe width="240" height="290" src="https://www.youtube.com/embed/OQd6O7n8FSg?si=elgqEvGLIoBHR9P5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- num five -->
+    <div class="container-fluid  space-me">
+      <div class="row">
+        <h2>5. 5 Guys</h2>
+      </div>
+      <div class="container">
+
+        <div class="row">
+          <div class="col-4">
+            <img src="../assets/M5guyspic.jpg" alt="BKpic" width="290" height="375" />
+          </div>
+
+          <div class="col-4">
+            <h2>Taste: X/10</h2>
+            <h2>Saltiness: X/10</h2>
+            <h2>Texture: X/10</h2>
+            <h2>Overall: X/10</h2>
+            <br>
+            <p>Mini description of the fries and the experience</p>
+          </div>
+
+          <div class="col-4">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapseSix">
+                    <Strong>Review</Strong>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse show">
+                  <div class="accordion-body">
+                    <iframe width="240" height="290" src="https://www.youtube.com/embed/Pv_-ttZGR44?si=uiZCkYpsnof4sH4K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
+                  </div>
+                </div>
+              </div>
+            </div>
 
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- num four -->
+    <div class="container-fluid  space-me">
+      <div class="row">
+        <h2>4. Carl's Jr.</h2>
+      </div>
+      <div class="container">
+
+        <div class="row">
+          <div class="col-4">
+            <img src="../assets/MCarlsJrpic.jpg" alt="BKpic" width="290" height="375" />
+          </div>
+
+          <div class="col-4">
+            <h2>Taste: X/10</h2>
+            <h2>Saltiness: X/10</h2>
+            <h2>Texture: X/10</h2>
+            <h2>Overall: X/10</h2>
+            <br>
+            <p>Mini description of the fries and the experience</p>
+          </div>
+
+          <div class="col-4">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapseSeven">
+                    <Strong>Review</Strong>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse show">
+                  <div class="accordion-body">
+                    <iframe width="240" height="290" src="https://www.youtube.com/embed/Vj9LegTcVgA?si=kvUwfp7gWS4chP7B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- num three -->
+    <div class="container-fluid  space-me">
+      <div class="row">
+        <h2>3. Chick-fil-a</h2>
+      </div>
+      <div class="container">
+
+        <div class="row">
+          <div class="col-4">
+            <img src="../assets/MChickFilpic.jpg" alt="BKpic" width="290" height="375" />
+          </div>
+
+          <div class="col-4">
+            <h2>Taste: X/10</h2>
+            <h2>Saltiness: X/10</h2>
+            <h2>Texture: X/10</h2>
+            <h2>Overall: X/10</h2>
+            <br>
+            <p>Mini description of the fries and the experience</p>
+          </div>
+
+          <div class="col-4">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapseEight">
+                    <Strong>Review</Strong>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse show">
+                  <div class="accordion-body">
+                    <iframe width="240" height="290" src="https://www.youtube.com/embed/MqNk9L6R3iE?si=SYga-Oj_UUHrlB6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- num two -->
+    <div class="container-fluid  space-me">
+      <div class="row">
+        <h2>2. In N Out</h2>
+      </div>
+      <div class="container">
+
+        <div class="row">
+          <div class="col-4">
+            <img src="../assets/mInNOutpic.jpg" alt="BKpic" width="290" height="375" />
+          </div>
+
+          <div class="col-4">
+            <h2>Taste: X/10</h2>
+            <h2>Saltiness: X/10</h2>
+            <h2>Texture: X/10</h2>
+            <h2>Overall: X/10</h2>
+            <br>
+            <p>Mini description of the fries and the experience</p>
+          </div>
+
+          <div class="col-4">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseNine" aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapseNine">
+                    <Strong>Review</Strong>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseNine" class="accordion-collapse collapse show">
+                  <div class="accordion-body">
+                    <iframe width="240" height="290" src="https://www.youtube.com/embed/0u-jh_Q2VNI?si=VeQ46H3M8fzHyu7J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- num one -->
+    <div class="container-fluid fry-one space-me">
+      <div class="row">
+        <h2>1. Burger King</h2>
+      </div>
+      <div class="container">
+
+        <div class="row">
+          <div class="col-4">
+            <img src="../assets/MBKpic.jpg" alt="BKpic" width="290" height="375" />
+          </div>
+
+          <div class="col-4">
+            <h2>Taste: X/10</h2>
+            <h2>Saltiness: X/10</h2>
+            <h2>Texture: X/10</h2>
+            <h2>Overall: X/10</h2>
+            <br>
+            <p>Mini description of the fries and the experience</p>
+          </div>
+
+          <div class="col-4">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseTen" aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapseTen">
+                    <Strong>Review</Strong>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTen" class="accordion-collapse collapse show">
+                  <div class="accordion-body">
+                    <iframe width="240" height="290" src="https://www.youtube.com/embed/CgmG2JE6H2o?si=MVWqjmDjBDF85_GT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
     
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
