@@ -34,4 +34,32 @@
 }
 
 
+/* Mike's Styles */
 
+.mikeHead{
+    text-align: center;
+    text-decoration: underline;
+}
+.mikeBox{
+    background-color: grey;
+}
+.accordion-body {
+    background-color: white;
+    text-align: center;
+    
+
+}
+
+
+.accordion-button {
+    position: relative;
+    display: flex;
+    color: black;
+    background-color: white;
+
+    &:not(.collapsed){
+        color: black;
+        background-color:white;
+    }
+
+}
