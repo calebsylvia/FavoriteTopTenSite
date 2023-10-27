@@ -63,3 +63,33 @@
     }
 
 }
+
+/* Caleb's Top Ten */
+
+.caleb-header {
+    font-family: 'Marcellus', serif;
+    text-decoration: underline;
+    margin-top: 75px;
+    text-align: center;
+}
+
+.box-bg{
+    background-color: #D9D9D9;
+    font-family: 'Marcellus', serif;
+    margin-top: 35px;
+    width: 75%;
+    margin-bottom: 40px;
+}
+
+.space-me{
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.fry-ten{
+    padding-top: 25px;
+}
+.fry-one{
+    padding-bottom: 30px;
+}
