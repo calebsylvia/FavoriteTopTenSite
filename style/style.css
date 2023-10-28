@@ -108,3 +108,11 @@
     
 }
 
+.navbar{
+    font-weight: bold;
+}
+
+.navbar a:hover{
+    color: white;
+}
+
